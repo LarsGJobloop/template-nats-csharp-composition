@@ -34,6 +34,7 @@
             natscli # A NATS CLI client
             bento # Forked FOSS
             # benthos # A simple stream processor
+            just # Simple command runner
           ];
 
           env = {
