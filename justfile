@@ -9,3 +9,7 @@ up:
 # Stops everything
 down:
   docker compose down
+
+# Clears any generated resources (volumes, local images, networks, dangling containers)
+clean:
+  docker compose down --volumes --remove-orphans --rmi local
