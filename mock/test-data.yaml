@@ -1,0 +1,10 @@
+input:
+  generate:
+    interval: 1s
+    mapping: |
+      root.id = uuid_v4()
+
+output:
+  nats:
+    urls: [nats://localhost:4222]  # Replace with your NATS URL
+    subject: mock.events           # Replace with your desired subject

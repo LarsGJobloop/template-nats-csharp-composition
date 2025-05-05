@@ -32,7 +32,8 @@
           packages = with pkgs; [
             dotnetCorePackages.sdk_9_0 # Program Development
             natscli # A NATS CLI client
-            benthos # A simple stream processor
+            bento # Forked FOSS
+            # benthos # A simple stream processor
           ];
 
           env = {
